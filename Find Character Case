@@ -1,0 +1,11 @@
+def check_character(char):
+    if char.isupper():
+        return 1
+    elif char.islower():
+        return 0
+    else:
+        return -1
+
+input_char = input()
+result = check_character(input_char)
+print(result)
