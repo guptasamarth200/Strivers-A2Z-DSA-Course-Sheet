@@ -1,0 +1,10 @@
+from typing import *
+
+def dataTypes(type: str):
+    if (type[0]=="I") | (type[0]=="F"):
+        return 4
+    elif (type[0]=="L") | (type[0]=="D"):
+        return 8
+    elif type[0]=="C":
+        return 1
+    pass
